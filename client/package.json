@@ -1,0 +1,43 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "todo-app",
+  "keywords": [
+    "todo-app",
+    "ci/cd",
+    "pipeline"
+  ],
+  "homepage": "https://github.com/Lokhandwala786/todo-app-devops#readme",
+  "bugs": {
+    "url": "https://github.com/Lokhandwala786/todo-app-devops/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lokhandwala786/todo-app-devops.git"
+  },
+  "license": "ISC",
+  "author": "irbaz lokhandwala",
+  "main": "client.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
